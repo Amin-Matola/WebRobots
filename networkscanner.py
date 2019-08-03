@@ -2,7 +2,7 @@
 #--------------------------------------Last Touched By: Amin Matola----------------------------
 #--------------------------------------Last Touched On: 03/08/2019 ----------------------------
 
-
+#----------------------------------------------------------------------------------------------
 from flask import Flask, render_template,request,send_file
 import urllib3 as urllib
 import socket
@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 import requests
 import time
 
+#---------------------------------------- Let's start the game --------------------------------
 app             = Flask(__name__)
 app.secret_key  = "Non-seen"
 
